@@ -35,7 +35,7 @@ const infoTeam = [
 ]
 
 
-//ottengo tutte le informazioni dell'oggetto e dei suoi valori stampandoli in console e le riporto successivamente sul DOM
+//ottengo tutte le informazioni tramite il ciclo for/in dell'oggetto e dei suoi valori stampandoli in console e le riporto successivamente sul DOM
 const markUp = document.getElementById('contenitore')
 
 for (const key in infoTeam) {
