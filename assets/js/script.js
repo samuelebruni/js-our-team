@@ -5,32 +5,32 @@ const infoTeam = [
     {
         nameMember : 'Wayne Barnett',
         role : 'Founder & CEO',	
-        idCard : '../assets/img/wayne-barnett-founder-ceo.jpg'
+        idCard : './assets/img/wayne-barnett-founder-ceo.jpg'
     },
     {
         nameMember : 'Angela Caroll',
         role : 'Chief Editor',	
-        idCard : '../assets/img/angela-caroll-chief-editor.jpg'
+        idCard : './assets/img/angela-caroll-chief-editor.jpg'
     },
     {
         nameMember : 'Walter Gordon',
         role : 'Office Manager',
-        idCard : '../assets/img/walter-gordon-office-manager.jpg'
+        idCard : './assets/img/walter-gordon-office-manager.jpg'
     },
     {
         nameMember : 'Angela Lopez',
         role : 'Social Media Manager',	
-        idCard : '../assets/img/angela-lopez-social-media-manager.jpg'
+        idCard : './assets/img/angela-lopez-social-media-manager.jpg'
     },
     {
         nameMember : 'Scott Estrada',
         role : 'Developer',	
-        idCard : '../assets/img/scott-estrada-developer.jpg'
+        idCard : './assets/img/scott-estrada-developer.jpg'
     },
     {
         nameMember : 'Barbara Ramos',	
         role : 'Graphic Designer',	
-        idCard : '../assets/img/barbara-ramos-graphic-designer.jpg'
+        idCard : './assets/img/barbara-ramos-graphic-designer.jpg'
     }
 ]
 
@@ -59,6 +59,5 @@ for (const key in infoTeam) {
             </div>
     </div>
     ` 
-
 }
 
